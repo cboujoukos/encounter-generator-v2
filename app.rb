@@ -10,4 +10,8 @@ class App < Sinatra::Base
     erb :city
   end
 
+  get '/wilderness' do
+    "This will be the wilderness generator"
+  end
+
 end
